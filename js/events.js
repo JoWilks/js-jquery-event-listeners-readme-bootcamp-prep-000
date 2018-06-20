@@ -52,6 +52,7 @@ function pressIt(key) {
     }
   })
 }
+}
 
 function submitIt() {
   //binds an event that alerts "Your form is going to be submitted now." when the form is submitted
