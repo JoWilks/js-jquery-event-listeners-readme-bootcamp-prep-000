@@ -1,6 +1,5 @@
 //define functions here
 
-<<<<<<< HEAD
 //bind click event to the p tag, alert "Hey!" when Paragraph clicked.
 function getIt() {
 $('p').on('click', function () {   
@@ -15,7 +14,6 @@ $('img').on('load',function() {
   $('img').addClass("tasty");
 })
 }
-=======
 
 function getIt() {
     alert("Hey!")     //bind click event to the p tag, alert "Hey!" when Paragraph clicked.
@@ -46,8 +44,6 @@ function submitIt() {
 
 $(document).ready(function(){
   
->>>>>>> 429d7818e5504235064a040ed00cc12b40cfbf4e
-
 function pressIt(key) {
   //binds an event that alerts the user when the G key was pressed down
   $('#typing').on('keydown', function(key) {
@@ -57,7 +53,6 @@ function pressIt(key) {
   })
 }
 
-<<<<<<< HEAD
 function submitIt() {
   //binds an event that alerts "Your form is going to be submitted now." when the form is submitted
  $('form').on('submit', function() {
@@ -68,7 +63,4 @@ function submitIt() {
 $(document).ready(function(){
   //call functions here
 })
-=======
 
-});
->>>>>>> 429d7818e5504235064a040ed00cc12b40cfbf4e
